@@ -1,0 +1,10 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "OwnableDelegateProxy",
+  "sourceName": "contracts/PhialofLife.sol",
+  "abi": [],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea264697066735822122078dac2ba40b267d46f7479b1843719cd59f0df3f6fbbb1d2e0817df2d322c23364736f6c63430008090033",
+  "deployedBytecode": "0x6080604052600080fdfea264697066735822122078dac2ba40b267d46f7479b1843719cd59f0df3f6fbbb1d2e0817df2d322c23364736f6c63430008090033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

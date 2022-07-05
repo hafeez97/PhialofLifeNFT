@@ -2,13 +2,15 @@
   "name": "nft-minting-dapp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "beautyqueensmint.metaperficient.com",
+  "homepage": "https://hafeez97.github.io/PhialofLifeNFT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "export" : "next export"
+    "export": "next export",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@alch/alchemy-web3": "^1.2.4",
@@ -27,6 +29,7 @@
     "ethereum-unit-converter": "^0.0.17",
     "ethereum-waffle": "^3.4.0",
     "ethers": "^5.5.4",
+    "gh-pages": "^4.0.0",
     "hardhat": "^2.8.4",
     "keccak256": "^1.0.6",
     "merkletreejs": "^0.2.30",
